@@ -23,8 +23,7 @@ const List =()=>{
             <ul>
                 {fruits.map((fruit) => (
                     <li key={fruit.id}>
-                        {fruits.nom}
-                        <button onClick={()=>removeLink(fruit.id)}>remove</button>
+                        {fruits.nom}<button onClick={()=>removeLink(fruit.id)}>remove</button>
                     </li>
                 ))}
             </ul>
