@@ -1,14 +1,14 @@
-import './App.css';
-import Membre from './components/Membre'
+import Incre from "./Incre";
+import List from "./List";
 
-function App() {
-  return (
-    <header className='App'>
-<h1>React App stevens</h1>
-<Membre />
-    </header>
-
-  );
+function App (){
+return(
+    <div>
+      <Incre/>
+      <List/>
+  
+    </div>
+  )
 }
 
 export default App;
